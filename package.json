@@ -1,6 +1,6 @@
 {
   "name": "eventhub",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Custom eventhub implemented with JavaScript",
   "main": "index.js",
   "dependencies": {},
