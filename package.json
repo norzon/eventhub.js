@@ -1,0 +1,23 @@
+{
+  "name": "eventhub",
+  "version": "0.0.1",
+  "description": "Custom eventhub implemented with JavaScript",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "2.9.2"
+  },
+  "scripts": {
+    "watch": "./node_modules/.bin/tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/norzon/eventhub.js.git"
+  },
+  "author": "Alexandros Leontakianakos (norzon)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/norzon/eventhub.js/issues"
+  },
+  "homepage": "https://github.com/norzon/eventhub.js#readme"
+}
