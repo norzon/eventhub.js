@@ -8,7 +8,7 @@
     "typescript": "2.9.2"
   },
   "scripts": {
-    "watch": "./node_modules/.bin/tsc --watch"
+    "watch": "tsc --watch"
   },
   "repository": {
     "type": "git",
