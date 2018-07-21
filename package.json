@@ -8,9 +8,11 @@
     "@babel/cli": "^7.0.0-beta.49",
     "@babel/core": "^7.0.0-beta.49",
     "@babel/preset-env": "^7.0.0-beta.49",
+    "mocha": "^5.2.0",
     "typescript": "2.9.2"
   },
   "scripts": {
+    "test": "mocha",
     "dev": "tsc -outDir dev -d",
     "tsc": "tsc -d",
     "babel": "babel lib/eventhub.js -d dist",
