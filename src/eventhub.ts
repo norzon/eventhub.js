@@ -49,4 +49,4 @@ class EventHub {
     }
 }
 
-export default EventHub;
+export = EventHub;

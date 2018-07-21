@@ -30,4 +30,4 @@ declare class EventHub {
      */
     emit(event: string, ...args: any[]): void;
 }
-export default EventHub;
+export = EventHub;

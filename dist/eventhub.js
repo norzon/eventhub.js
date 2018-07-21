@@ -16,10 +16,6 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
     define(["require", "exports"], factory);
   }
 })(function (require, exports) {
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-
   var EventHub =
   /*#__PURE__*/
   function () {
@@ -91,5 +87,5 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
     return EventHub;
   }();
 
-  exports.default = EventHub;
+  return EventHub;
 });
