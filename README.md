@@ -5,19 +5,19 @@
 ---
 ## Table of Contents
 
-1. [Installation](#1.-installation)
-1. [Files available](#files-available)
-    1. [Non-compiled](#2.1-non-compiled)
-    1. [Compiled](#2.2-compiled)
-    1. [TypeScript declaration file](#2.3-TypeScript-declaration-file)
-1. [Usage](#usage)
-    1. [Initialization](#3.1-initialization)
-    1. [Attach event](#3.2-attach-event)
-    1. [Detach event](#3.3-detach-event)
-    1. [Fire event](#3.4-fire-event)
-    1. [Example](#3.5-example)
-1. [Contributing](#4.-contributing)
-1. [License](#5.-license)
+1. [Installation](#1-installation)
+1. [Files available](#2-files-available)
+    1. [Non-compiled](#21-non-compiled)
+    1. [Compiled](#22-compiled)
+    1. [TypeScript declaration file](#23-TypeScript-declaration-file)
+1. [Usage](#3-usage)
+    1. [Initialization](#31-initialization)
+    1. [Attach event](#32-attach-event)
+    1. [Detach event](#33-detach-event)
+    1. [Fire event](#34-fire-event)
+    1. [Example](#35-example)
+1. [Contributing](#4-contributing)
+1. [License](#5-license)
 
 ---
 ## 1. Installation
