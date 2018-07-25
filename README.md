@@ -139,8 +139,8 @@ After this, you are hopefully ready to start coding!
 Any contributions are welcome!
 
 ### Contribute by
-- [Creating a pull request](#https://github.com/norzon/eventhub.js/compare)
-- [Creating an issue](#https://github.com/norzon/eventhub.js/issues/new)
+- [Creating a pull request](https://github.com/norzon/eventhub.js/compare)
+- [Creating an issue](https://github.com/norzon/eventhub.js/issues/new)
 
 ### Commit & Push flow
 #### Clone the repo
