@@ -13,8 +13,8 @@
   },
   "scripts": {
     "test": "mocha",
-    "dev": "tsc -outDir dev -d",
-    "tsc": "tsc -d",
+    "dev": "tsc -outDir dev",
+    "tsc": "tsc",
     "babel": "babel lib/eventhub.js -d dist",
     "babel-min": "babel lib/eventhub.js -o dist/eventhub.min.js --minify --compact true --no-comments",
     "build": "npm run tsc && npm run babel && npm run babel-min"

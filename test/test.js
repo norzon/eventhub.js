@@ -1,5 +1,5 @@
 const assert = require('assert');
-const EventHub = require('../lib/eventhub');
+const { EventHub } = require('../lib/eventhub');
 const eventhub = new EventHub();
 
 const tests = {

@@ -6,16 +6,25 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+// @ts-ignore
+(function (global, factory) {
+  // @ts-ignore
+  if (typeof define === "function" && define.amd) {
+    // @ts-ignore
+    define(["exports"], factory);
+  } // @ts-ignore
+  else if (typeof exports !== "undefined") {
+      // @ts-ignore
+      factory(exports);
+    } else {
+      var mod = {
+        exports: {}
+      };
+      mod.exports = factory(mod.exports);
+      global = Object.assign(global, mod.exports);
+    } // @ts-ignore
 
-(function (factory) {
-  if ((typeof module === "undefined" ? "undefined" : _typeof(module)) === "object" && _typeof(module.exports) === "object") {
-    var v = factory(require, exports);
-    if (v !== undefined) module.exports = v;
-  } else if (typeof define === "function" && define.amd) {
-    define(["require", "exports"], factory);
-  }
-})(function (require, exports) {
+})(typeof self !== "undefined" ? self : void 0, function (exports) {
   var EventHub =
   /*#__PURE__*/
   function () {
@@ -87,5 +96,6 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
     return EventHub;
   }();
 
-  return EventHub;
+  exports.EventHub = EventHub;
+  return exports;
 });
